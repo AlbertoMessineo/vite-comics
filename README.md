@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# Vite-comics
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+##### Creazione di una pagina web utilizzando Vite & scss
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Con Vite installo nel progetto una serie di pacchetti necessari alla costruzione della pagina, mediante l'importazione e l'esportazione dei componenti nella cartella src andiamo a creare la pagina di Comics.
