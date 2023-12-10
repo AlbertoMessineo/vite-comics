@@ -4,12 +4,14 @@ export default {
 };
 </script>
 <template>
-  <main class="container">
-    <div class="up">
-    -- content goes here --
+  <main>
+    <div class="container">
+      <div class="up">
+      -- content goes here --
+      </div>
+      <div class="center">.</div>
+      <div class="down"></div>
     </div>
-    <div class="center">.</div>
-    <div class="down"></div>
   </main>
 </template>
 <style></style>

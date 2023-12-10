@@ -4,6 +4,8 @@ export default {
 };
 </script>
 <template>
-  <footer class="container">footer</footer>
+  <footer>
+    <div class="container">footer</div>
+    </footer>
 </template>
 <style></style>

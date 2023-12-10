@@ -1,21 +1,48 @@
+// COMMON
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
 .container{
     width: 80%;
     margin: 0 auto;
 }
+// HEADER
 header{
-    display: flex;
-    justify-content: space-between;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
     ul{
         display: flex;
         list-style: none;
         text-transform: uppercase;
     }
 }
-li{
-    padding: 10px;
+nav{
+    height: 50px;
 }
+a{  
+    height: 100%;
+    color:#1c1c1c ;
+    padding: 10px;
+    
+}
+a:hover{
+    border-bottom: 5px solid #0282f9 ;
+}
+// MAIN
 main{
+    width: 100%;
     .up{
+        width: 100%;
         background-color: #1c1c1c;
         color: white;
     }
@@ -26,3 +53,4 @@ main{
         background-color: #303030 ;
     }
 }
+// FOOTER
