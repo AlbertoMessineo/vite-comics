@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+    }
+}
+li{
+    padding: 10px;
+}
+main{
+    .up{
+        background-color: #1c1c1c;
+        color: white;
+    }
+        .center{
+            background-color: #0282f9  ;
+        }
+    .down{
+        background-color: #303030 ;
+    }
+}
