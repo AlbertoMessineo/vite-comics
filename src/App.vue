@@ -2,7 +2,7 @@
  import Header from './components/Header.vue'; 
  import Main from './components/Main.vue';
  import Footer from './components/Footer.vue';
-import { createApp } from 'vue';
+ import { createApp } from 'vue';
  export default{
   name: createApp,
   components: {
@@ -19,6 +19,6 @@ import { createApp } from 'vue';
   <Footer />
 </template>
 <style lang="scss">
-@use './styles/partials/variables' as *;
+@use 'styles/partials/variables' as *;
 @use './styles/generals' as *;
 </style>

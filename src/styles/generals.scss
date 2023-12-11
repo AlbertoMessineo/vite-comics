@@ -1,3 +1,4 @@
+@use '../styles/partials/variables' as *;
 // COMMON
 *{  
     margin: 0;
@@ -31,26 +32,26 @@ nav{
 }
 a{  
     height: 100%;
-    color:#1c1c1c ;
+    color: $black ;
     padding: 10px;
     
 }
 a:hover{
-    border-bottom: 5px solid #0282f9 ;
+    border-bottom: 5px solid $azure ;
 }
 // MAIN
 main{
     width: 100%;
     .up{
         width: 100%;
-        background-color: #1c1c1c;
+        background-color: $black;
         color: white;
     }
         .center{
-            background-color: #0282f9  ;
+            background-color: $azure  ;
         }
     .down{
-        background-color: #303030 ;
+        background-color: $darkGrey ;
     }
 }
 // FOOTER
