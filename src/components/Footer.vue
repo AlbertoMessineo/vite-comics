@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <footer>
-    <div class="container">footer</div>
+    <div class="container"></div>
     </footer>
 </template>
 <style></style>

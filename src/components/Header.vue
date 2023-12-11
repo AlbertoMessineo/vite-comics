@@ -7,7 +7,7 @@ export default {
   <!-- header top bar -->
   <header>
     <div class="container">
-      <div>img</div>
+      <div><img src="/src/assets/img/dc-logo.png" alt=""></div>
       <nav>
         <ul>
           <li>

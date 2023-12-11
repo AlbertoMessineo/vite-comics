@@ -1,11 +1,13 @@
 <script>
- import Header from './components/Header.vue'; 
+ import Cards from './components/Cards.Vue';
+ import Header from '.components/Header.Vue';
  import Main from './components/Main.vue';
  import Footer from './components/Footer.vue';
  import { createApp } from 'vue';
  export default{
   name: createApp,
   components: {
+  Cards,
   Header,
   Main,
   Footer,

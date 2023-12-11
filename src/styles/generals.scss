@@ -1,6 +1,7 @@
 @use '../styles/partials/variables' as *;
+
 // COMMON
-*{  
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,50 +9,82 @@
     font-weight: 500;
     text-decoration: none;
 }
-body{
+
+body {
     width: 100%;
 }
-.container{
+
+.container {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
 // HEADER
-header{
-    .container{
-        display: flex;
-        justify-content: space-between;
-    }
-    ul{
-        display: flex;
-        list-style: none;
-        text-transform: uppercase;
-    }
-}
-nav{
+
+nav {
     height: 50px;
 }
-a{  
+
+a {
     height: 100%;
     color: $black ;
     padding: 10px;
-    
+
 }
-a:hover{
+
+a:hover {
     border-bottom: 5px solid $azure ;
 }
+
 // MAIN
-main{
-    width: 100%;
-    .up{
+main {
+
+    // width: 100%;
+    .up {
         width: 100%;
         background-color: $black;
         color: white;
-    }
-        .center{
-            background-color: $azure  ;
+        .bg-img{
+            height: 480px;
+            background-image: url('./assets/img/jumbotron.jpg');
+            background-size: cover;
         }
-    .down{
+    }
+
+    .center {
+        background-color: $azure;
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 35px;
+
+            img {
+                flex-shrink: inherit;
+                height: 70px;
+            }
+
+            span {
+                font-size: 14px;
+                margin: 10px;
+                color: $white;
+            }
+        }
+
+    }
+
+    .down {
         background-color: $darkGrey ;
     }
 }
+
 // FOOTER
