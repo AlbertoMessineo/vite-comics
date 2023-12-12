@@ -1,13 +1,17 @@
 {
   "name": "vite-comics",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "##### Creazione di una pagina web utilizzando Vite & scss",
+  "main": "vite.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "vite",
+     "build": "vite build",
+     "preview": "vite preview --port 4173"
   },
+  "author": "",
+  "license": "ISC",
+
   "dependencies": {
     "sass": "^1.69.5",
     "vue": "^3.3.8"
@@ -16,4 +20,5 @@
     "@vitejs/plugin-vue": "^4.5.0",
     "vite": "^5.0.0"
   }
+  
 }
